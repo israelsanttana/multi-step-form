@@ -14,3 +14,8 @@
   border: none;
   border-radius: 8px;
 }
+
+.btn-next-step button:hover {
+  background-color: var(--Purplish-blue);
+  transition: 0.3s;
+}
