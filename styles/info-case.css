@@ -1,0 +1,19 @@
+.info-case {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 80px 0px;
+}
+
+.header h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--Marine-blue);
+}
+
+.header p {
+  font-size: 16px;
+  color: var(--Cool-gray);
+  margin-top: 10px;
+}
