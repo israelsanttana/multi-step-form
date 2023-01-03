@@ -1,0 +1,16 @@
+.btn {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.btn-next-step button {
+  font-size: 16px;
+  padding: 16px 22px 16px;
+  background-color: var(--Marine-blue);
+  color: var(--White);
+  border: none;
+  border-radius: 8px;
+}
