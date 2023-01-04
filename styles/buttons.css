@@ -3,7 +3,7 @@
   height: auto;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: space-between;
 }
 
 .btn-next-step button {
@@ -18,4 +18,21 @@
 .btn-next-step button:hover {
   background-color: var(--Purplish-blue);
   transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn-back-step button {
+  font-size: 16px;
+  padding: 16px 0px 16px;
+  background-color: transparent;
+  color: var(--Cool-gray);
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-back-step button:hover {
+  color: var(--Marine-blue);
+  transition: 0.3s;
+  cursor: pointer;
 }

@@ -1,0 +1,48 @@
+.selection-box {
+  display: flex;
+}
+
+.selection-box-1,
+.selection-box-2,
+.selection-box-3 {
+  width: 8rem;
+  border: solid 1px var(--Cool-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.icon {
+  margin-bottom: 48px;
+}
+
+.choice h2 {
+  font-weight: 500;
+  color: var(--Marine-blue);
+  padding-bottom: 6px;
+}
+
+.choice p {
+  color: var(--Cool-gray);
+}
+
+.selection-box-1:hover {
+  border: solid 1px var(--Purplish-blue);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.selection-box-2:hover {
+  border: solid 1px var(--Purplish-blue);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.selection-box-3:hover {
+  border: solid 1px var(--Purplish-blue);
+  cursor: pointer;
+  transition: 0.3s;
+}
