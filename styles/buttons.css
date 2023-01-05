@@ -36,3 +36,34 @@
   transition: 0.3s;
   cursor: pointer;
 }
+
+#switch {
+  width: 40px;
+  height: 20px;
+  appearance: none;
+  background-color: var(--Marine-blue);
+  border-radius: 50px;
+  position: relative;
+}
+
+#switch:checked {
+  background-color: var(--Cool-gray);
+  transition: 0.3s;
+}
+
+#switch::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  background-color: var(--White);
+  position: absolute;
+  margin: 2px;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+#switch:checked::before {
+  left: 20px;
+}

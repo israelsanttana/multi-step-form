@@ -1,7 +1,7 @@
 .sidebar {
   background-image: url(../assets/images/bg-sidebar-desktop.svg);
   background-size: cover;
-  width: 300px;
+  width: 284px;
   height: 600px;
   display: flex;
   flex-direction: column;
