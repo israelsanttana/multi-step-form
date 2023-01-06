@@ -5,6 +5,7 @@
 @import url(./buttons.css);
 @import url(./selection-box.css);
 @import url(./switch-box.css);
+@import url(./add-ons.css);
 
 :root {
   --Marine-blue: hsl(213, 96%, 18%);
@@ -45,6 +46,7 @@ section {
   overflow: hidden;
 }
 
-#step1 {
+#step1,
+#step2 {
   display: none;
 }

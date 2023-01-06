@@ -14,6 +14,9 @@
   border: none;
   border-radius: 8px;
 }
+.btn-next-step {
+  justify-content: start;
+}
 
 .btn-next-step button:hover {
   background-color: var(--Purplish-blue);
@@ -66,4 +69,19 @@
 
 #switch:checked::before {
   left: 20px;
+}
+
+#check-custom {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: solid 1px var(--Light-gray);
+  border-radius: 4px;
+}
+
+#check-custom:checked {
+  background-color: var(--Purplish-blue);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 24 24' stroke='%23ffffff'%3E%3Cg id='SVGRepo_bgCarrier' stroke-width='0'%3E%3C/g%3E%3Cg id='SVGRepo_iconCarrier'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  background-position: center;
+  transition: 0.3s;
 }

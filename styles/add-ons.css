@@ -1,0 +1,32 @@
+.add-ons-contents {
+  display: flex;
+  border: solid 1px var(--Purplish-blue);
+  border-radius: 8px;
+  margin-bottom: 14px;
+  padding: 22px;
+}
+
+.add-ons-contents div h2 {
+  color: var(--Marine-blue);
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.add-ons-contents div p {
+  color: var(--Cool-gray);
+  font-size: 14px;
+}
+
+.add-ons-contents div span {
+  color: var(--Purplish-blue);
+  font-size: 14px;
+}
+
+.ipunt-case {
+  margin-right: 20px;
+}
+
+.description-case {
+  width: 300px;
+}
