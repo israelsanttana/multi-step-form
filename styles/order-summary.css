@@ -1,0 +1,61 @@
+.order-summary {
+  background-color: var(--Magnolia);
+  border-radius: 8px;
+}
+
+.order-summary hr {
+  width: 350px;
+  height: 1px;
+  border: none;
+  background: var(--Light-gray);
+}
+
+.order-summary-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.order-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px;
+}
+
+.order-total p {
+  color: var(--Cool-gray);
+}
+
+.order-total h2 {
+  color: var(--Purplish-blue);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#plan,
+#type-of-plan {
+  color: var(--Marine-blue);
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+#plan-value {
+  color: var(--Marine-blue);
+  font-weight: 700;
+}
+
+.order-summary-content p {
+  color: var(--Cool-gray);
+}
+
+#summary {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+#extra {
+  color: var(--Marine-blue);
+  font-size: 14px;
+  margin-bottom: 16px;
+}

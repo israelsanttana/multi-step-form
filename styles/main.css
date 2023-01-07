@@ -6,6 +6,8 @@
 @import url(./selection-box.css);
 @import url(./switch-box.css);
 @import url(./add-ons.css);
+@import url(./order-summary.css);
+@import url(./thank-you-screen.css);
 
 :root {
   --Marine-blue: hsl(213, 96%, 18%);
@@ -45,8 +47,9 @@ section {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   overflow: hidden;
 }
-
-#step1,
-#step2 {
+#step4,
+#step3,
+#step2,
+#step5 {
   display: none;
 }

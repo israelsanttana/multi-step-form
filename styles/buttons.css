@@ -85,3 +85,17 @@
   background-position: center;
   transition: 0.3s;
 }
+
+#Change {
+  background-color: transparent;
+  border: none;
+  color: var(--Cool-gray);
+  cursor: pointer;
+  padding: 0;
+  font-size: 14px;
+}
+
+#Change:hover {
+  color: var(--Purplish-blue);
+  border-bottom: solid 1px var(--Purplish-blue);
+}

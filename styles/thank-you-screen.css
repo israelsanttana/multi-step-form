@@ -1,0 +1,22 @@
+.thank-you-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you-screen div {
+  margin-top: 20px;
+}
+
+.thank-you-screen h1 {
+  font-size: 34px;
+  color: var(--Marine-blue);
+  font-weight: 600;
+}
+
+.thank-you-screen p {
+  color: var(--Cool-gray);
+  text-align: center;
+  line-height: 26px;
+}
