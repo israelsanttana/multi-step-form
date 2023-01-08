@@ -1,11 +1,12 @@
 .selection-box {
   display: flex;
+  width: 100%;
 }
 
 .selection-box-1,
 .selection-box-2,
 .selection-box-3 {
-  width: 8rem;
+  width: 100%;
   border: solid 1px var(--Cool-gray);
   display: flex;
   flex-direction: column;

@@ -38,7 +38,8 @@ main {
 }
 
 section {
-  max-width: 1044px;
+  width: 100%;
+  max-width: 900px;
   min-height: 560px;
   display: flex;
   padding: 20px;
@@ -49,7 +50,7 @@ section {
 }
 #step4,
 #step3,
-#step2,
+#step1,
 #step5 {
   display: none;
 }
