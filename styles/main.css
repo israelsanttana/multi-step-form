@@ -106,7 +106,7 @@ section {
 
   .info-case {
     width: 84%;
-    height: auto calc(-140px);
+    height: auto;
     background-color: var(--White);
     margin: 0;
     position: absolute;
