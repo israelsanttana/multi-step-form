@@ -91,6 +91,7 @@ section {
     background-size: cover;
     border-radius: 0;
     margin: 0;
+    position: relative;
   }
   .step {
     padding: 0.6rem;
@@ -109,7 +110,7 @@ section {
     margin: 0;
     position: absolute;
     z-index: 1;
-    margin-top: 80px;
+    top: 80px;
     border-radius: 8px;
   }
   .header {
@@ -124,12 +125,11 @@ section {
     margin-top: 0.2rem;
     border-radius: 4px;
   }
-  #step1 {
-    position: relative;
-  }
   .btn {
-    position: absolute;
-    background-color: aqua;
+    position: fixed;
+    background-color: var(--White);
     bottom: 0;
+    right: 0;
+    padding: 10px;
   }
 }
