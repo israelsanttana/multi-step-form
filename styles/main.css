@@ -68,6 +68,11 @@ section {
 }
 
 @media (max-width: 765px) {
+  body,
+  html {
+    overflow: hidden;
+  }
+
   section {
     width: 100vw;
     height: 100vh;
@@ -106,7 +111,7 @@ section {
 
   .info-case {
     width: 84%;
-    height: auto calc(-490px);
+    height: auto;
     background-color: var(--White);
     margin: 0;
     position: absolute;
