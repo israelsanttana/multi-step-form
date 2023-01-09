@@ -78,7 +78,6 @@ section {
     border-radius: 0;
     box-shadow: none;
     padding: 0;
-    overflow: hidden;
   }
 
   .sidebar {
@@ -107,7 +106,7 @@ section {
 
   .info-case {
     width: 84%;
-    height: auto;
+    height: auto calc(-490px);
     background-color: var(--White);
     margin: 0;
     position: absolute;
