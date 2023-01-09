@@ -106,11 +106,12 @@ section {
 
   .info-case {
     width: 84%;
+    height: auto calc(-140px);
     background-color: var(--White);
     margin: 0;
     position: absolute;
     z-index: 1;
-    top: 80px;
+    top: 90px;
     border-radius: 8px;
   }
   .header {
