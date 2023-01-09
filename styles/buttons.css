@@ -7,8 +7,8 @@
 }
 
 .btn-next-step button {
-  font-size: 16px;
-  padding: 16px 22px 16px;
+  font-size: 1.6rem;
+  padding: 1.6rem 2.2rem 1.6rem;
   background-color: var(--Marine-blue);
   color: var(--White);
   border: none;
@@ -25,8 +25,8 @@
 }
 
 .btn-back-step button {
-  font-size: 16px;
-  padding: 16px 0px 16px;
+  font-size: 1.6rem;
+  padding: 1.6rem 0rem 1.6rem;
   background-color: transparent;
   color: var(--Cool-gray);
   font-weight: 600;
@@ -61,7 +61,7 @@
   border-radius: 50px;
   background-color: var(--White);
   position: absolute;
-  margin: 2px;
+  margin: 0.2rem;
   top: 0;
   left: 0;
   transition: 0.3s;
@@ -92,7 +92,7 @@
   color: var(--Cool-gray);
   cursor: pointer;
   padding: 0;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 #Change:hover {

@@ -11,19 +11,19 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 12px;
-  margin: 10px;
+  padding: 1.2rem;
+  margin: 1rem;
   border-radius: 10px;
 }
 
 .icon {
-  margin-bottom: 48px;
+  margin-bottom: 4.8rem;
 }
 
 .choice h2 {
   font-weight: 500;
   color: var(--Marine-blue);
-  padding-bottom: 6px;
+  padding-bottom: 0.6rem;
 }
 
 .choice p {

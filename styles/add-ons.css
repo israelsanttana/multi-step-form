@@ -3,30 +3,30 @@
   border: solid 1px var(--Purplish-blue);
   border-radius: 8px;
   margin-bottom: 14px;
-  padding: 22px;
+  padding: 2.2rem;
 }
 
 .add-ons-contents div h2 {
   color: var(--Marine-blue);
   font-weight: 500;
-  font-size: 16px;
-  margin-bottom: 6px;
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
 }
 
 .add-ons-contents div p {
   color: var(--Cool-gray);
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .add-ons-contents div span {
   color: var(--Purplish-blue);
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .ipunt-case {
-  margin-right: 20px;
+  margin-right: 2rem;
 }
 
 .description-case {
-  width: 300px;
+  width: 30rem;
 }

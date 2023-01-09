@@ -6,11 +6,11 @@
 }
 
 .thank-you-screen div {
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .thank-you-screen h1 {
-  font-size: 34px;
+  font-size: 3.4rem;
   color: var(--Marine-blue);
   font-weight: 600;
 }
@@ -18,5 +18,5 @@
 .thank-you-screen p {
   color: var(--Cool-gray);
   text-align: center;
-  line-height: 26px;
+  line-height: 2.6rem;
 }
