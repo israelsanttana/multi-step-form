@@ -26,7 +26,6 @@
   justify-content: center;
   color: var(--Magnolia);
 }
-
 .step-text {
   margin-left: 1.4rem;
 }
@@ -42,4 +41,13 @@
   text-decoration: none;
   color: var(--White);
   font-weight: 500;
+}
+.circle:hover {
+  background-color: var(--Light-blue);
+  color: black;
+}
+
+.active {
+  background-color: var(--Light-blue) !important;
+  color: black !important;
 }
